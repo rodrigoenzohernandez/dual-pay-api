@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.send('hi');
+  res.send('welcome to dual-pay-api');
 });
 
 module.exports = router;
